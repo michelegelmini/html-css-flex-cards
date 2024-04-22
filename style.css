@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 body {
     font-family: Fredoka, sans-serif;
 }
@@ -16,10 +18,25 @@ body {
     height: 330px;
 }
 
+/* HEADER */
+
 header {
     text-align: center;
     margin-bottom: 30px;
 }
+
+h1 {
+    color: #E53170;
+    margin: 30PX;
+    font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* CARDS */
 
 .card {
     display: flex;
@@ -27,6 +44,9 @@ header {
     height: 70px;
     width: calc(100% / 3 - 14px);
     color: white;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    ;
 }
 
 .cards-container {
