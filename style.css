@@ -12,18 +12,51 @@ body {
 
 .container {
     width: 960px;
-    text-align: center;
     margin: auto;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .card {
+    display: flex;
     background-color: #0F0E17;
     height: 70px;
     width: 245px;
+    color: white;
 }
 
 .cards-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.card .image img {
+    height: 70px;
+    width: 70px;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.card .info h2 {
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.card .info h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card .info .email {
+    color: #129AD4;
 }
