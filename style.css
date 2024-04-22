@@ -11,8 +11,9 @@ body {
 }
 
 .container {
-    width: 960px;
+    max-width: 775px;
     margin: auto;
+    height: 330px;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
     display: flex;
     background-color: #0F0E17;
     height: 70px;
-    width: 245px;
+    width: calc(100% / 3 - 14px);
     color: white;
 }
 
@@ -32,6 +33,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
 }
 
 .card .image img {
@@ -44,6 +47,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     padding: 6px;
+    flex-wrap: wrap;
 }
 
 .card .info h2 {
@@ -58,5 +62,5 @@ header {
 }
 
 .card .info .email {
-    color: #129AD4;
+    color: #42B6DC;
 }
