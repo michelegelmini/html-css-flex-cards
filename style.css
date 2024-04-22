@@ -9,3 +9,21 @@
 body {
     font-family: Fredoka, sans-serif;
 }
+
+.container {
+    width: 960px;
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    background-color: #0F0E17;
+    height: 70px;
+    width: 245px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
